@@ -6,7 +6,7 @@ const nextYearContainer = document.querySelector('#year')
 const spinnerLoading = document.querySelector('#loading')
 const CountdownContainer = document.querySelector('#countdown')
 
-const nextYear = new Date().getFullYear() + 1
+const nextYear = new Date().getFullYear() + 0
 const newYearTime = new Date(`Juny 27 ${nextYear} 00:00:00`)
 nextYearContainer.textContent = nextYear
 const updateCountdown = () => {
